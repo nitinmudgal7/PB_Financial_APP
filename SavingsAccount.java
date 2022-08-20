@@ -1,4 +1,4 @@
-package simplilearn.domain;
+package nm.domain;
 
 //savings account 'is-a' subclass of Account(super class)
 public class SavingsAccount extends Account {
