@@ -1,7 +1,7 @@
-package simplilearn.test;
+package nm.test;
 
-import simplilearn.domain.Account;
-import simplilearn.domain.Customer;
+import nm.domain.Account;
+import nm.domain.Customer;
 
 public class TestBanking {
 
