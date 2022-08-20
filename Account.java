@@ -1,4 +1,4 @@
-package nm.domain;
+package simplilearn.domain;
 
 public class Account {
 	
