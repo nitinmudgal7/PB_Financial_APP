@@ -1,4 +1,4 @@
-package simplilearn.test;
+package nm.test;
 
 public class TestArrays {
 
