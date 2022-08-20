@@ -1,4 +1,4 @@
-package simplilearn.examples;
+package nm.examples;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
