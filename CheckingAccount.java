@@ -1,4 +1,4 @@
-package simplilearn.domain;
+package nm.domain;
 
 //sub class
 public class CheckingAccount extends Account {
