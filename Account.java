@@ -1,10 +1,11 @@
-package nm.domain;
+package simplilearn.domain;
 
+//super class
 public class Account {
 	
 	protected double balance;
 	
-	public Account(double initialBalance) {
+	protected Account(double initialBalance) {
 		if (initialBalance > 10) {
 			balance = initialBalance;
 		}else {
