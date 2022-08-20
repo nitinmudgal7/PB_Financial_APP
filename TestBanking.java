@@ -1,7 +1,7 @@
-package nm.test;
+package simplilearn.test;
 
-import nm.domain.Account;
-import nm.domain.Customer;
+import simplilearn.domain.Account;
+import simplilearn.domain.Customer;
 
 public class TestBanking {
 
@@ -14,11 +14,10 @@ public class TestBanking {
 		Account account = new Account(500.00);
 		theCustomer.setAccount(account);
 
-		System.out.println("Withdrar 150.00");
-		account.withdraw(150.00);
-
-		System.out.println("Deposit 22.50");
-		account.deposit(22.50);
+		System.out.println("Witdraw 150.00 :  " + account.withdraw(150.00));
+		System.out.println("Deposit 22.50 : " + account.deposit(22.50));
+		System.out.println("Withdraw 47.62 : " + account.withdraw(47.62));
+		System.out.println("Withdraw 400.00 : " + account.withdraw(400.00));
 
 		System.out.println("Customer [" + theCustomer.getLastName() + "," + theCustomer.getFirstName()
 				+ " ] has a balance of " + theCustomer.getAccount().getBalance());
